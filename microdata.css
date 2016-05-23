@@ -14,7 +14,7 @@ h1 {
     margin: 0px;
     padding: 5px;
 }
-section {
+div {
     width: 25%;
     float: left;
     margin: 0 0 24px 0; 
@@ -38,7 +38,7 @@ footer {
     position: fixed;
     bottom: 0;
 }
-section h2 {
+div h2 {
     position: absolute;
     clip: rect(1px 1px 1px 1px); /* for Internet Explorer */
     clip: rect(1px, 1px, 1px, 1px);
