@@ -77,11 +77,10 @@ div.container h2 {
     width: 1px;
     overflow: hidden;
 }
-/*
+
 header h1{
     position: absolute;
     clip: rect(1px 1px 1px 1px); /* for Internet Explorer */
-    /*
     clip: rect(1px, 1px, 1px, 1px);
     padding: 0;
     border: 0;
