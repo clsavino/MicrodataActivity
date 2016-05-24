@@ -2,6 +2,7 @@ body {
     margin:0;
     background-image: url("http://bigbackground.com/wp-content/uploads/2013/05/solid-purple-backgrounds.jpg");
 }
+/*
 header {
     background-color: orchid;
     margin: 0;
@@ -10,17 +11,18 @@ header {
     top: 0;
     text-align: center;
 }
+*/
 h1 {
     margin: 0px;
     padding: 5px;
 }
 div.container {
-    width: 20%;
+    width: 15%;
     float: left;
     margin: 0 0 24px 0; 
 }
 main {
-    width: 58%;
+    width: 68%;
     float:left;
     border-radius:10px;
     margin: 24px 0 24px 0;
@@ -52,15 +54,20 @@ img {
 p, span {
     font-size: 20px;
 }
-p.Christi{
+p.Christi {
     font-size: 18px;
     padding: 20px;
+    padding-top: 0px;
+    margin: 0px;
     text-align: justify;
+}
+.counselor {
+    font-size: 18px;
 }
 footer h1 {
     font-size: 16px;
 }
-div h2 {
+div.container h2 {
     position: absolute;
     clip: rect(1px 1px 1px 1px); /* for Internet Explorer */
     clip: rect(1px, 1px, 1px, 1px);
@@ -70,9 +77,11 @@ div h2 {
     width: 1px;
     overflow: hidden;
 }
+/*
 header h1{
     position: absolute;
     clip: rect(1px 1px 1px 1px); /* for Internet Explorer */
+    /*
     clip: rect(1px, 1px, 1px, 1px);
     padding: 0;
     border: 0;
