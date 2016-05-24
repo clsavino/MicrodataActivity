@@ -38,6 +38,26 @@ footer {
     position: fixed;
     bottom: 0;
 }
+img {
+    height: 150px;
+    padding: 5px;
+    
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+h2 {
+    font-size: 32px;
+}
+p, span {
+    font-size: 24px;
+}
+p.Christi{
+    font-size: 20px;
+}
+footer h1 {
+    font-size: 16px;
+}
 div h2 {
     position: absolute;
     clip: rect(1px 1px 1px 1px); /* for Internet Explorer */
@@ -57,20 +77,4 @@ header h1{
     height: 1px;
     width: 1px;
     overflow: hidden;
-}
-img {
-    height: 150px;
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: white;
-}
-h2 {
-    font-size: 32px;
-}
-p, span {
-    font-size: 24px;
-}
-footer h1 {
-    font-size: 16px;
 }
