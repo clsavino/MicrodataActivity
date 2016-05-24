@@ -39,9 +39,8 @@ footer {
     bottom: 0;
 }
 img {
-    height: 150px;
+    height: 125px;
     padding: 5px;
-    
     border-radius: 5px;
     background-color: white;
     margin-top: 10px;
@@ -54,6 +53,8 @@ p, span {
 }
 p.Christi{
     font-size: 20px;
+    padding: 10px;
+    text-align: justify;
 }
 footer h1 {
     font-size: 16px;
